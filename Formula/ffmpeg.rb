@@ -113,7 +113,7 @@ class Ffmpeg < Formula
       --enable-libspeex
       --enable-libsoxr
       --enable-libzmq
-      --enable-fdk-aac
+      --enable-libfdk-aac
       --enable-libzimg
       --disable-libjack
       --disable-indev=jack
