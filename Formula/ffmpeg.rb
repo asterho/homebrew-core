@@ -22,7 +22,7 @@ class Ffmpeg < Formula
     sha256 x86_64_linux:   "ea00042bb37e8657093e10b9798d0ccacd02c0660069d301d9e61a92d505a682"
   end
 
-  depends_on "nasm" => :build
+  # depends_on "nasm" => :build
   depends_on "pkg-config" => :build
   depends_on "aom"
   depends_on "dav1d"
@@ -110,6 +110,7 @@ class Ffmpeg < Formula
       --enable-libopencore-amrnb
       --enable-libopencore-amrwb
       --enable-libopenjpeg
+      --enable-libopus
       --enable-libspeex
       --enable-libsoxr
       --enable-libzmq
